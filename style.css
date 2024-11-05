@@ -1,0 +1,30 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: #A7C7E7;
+  font-family: 'Poppins', sans-serif;
+}
+#greet{
+  margin-top: 150px;
+  text-align: center;
+  font-size: 29px;
+}
+#buttonContainer{
+  display: flex;
+  justify-content: center;
+}
+
+#stockInfo {
+  border-style: solid;
+  border-width: 4px;
+  padding: 10px;
+  min-height: 50px;    /* Start height */
+  max-height: 300px;   /* Optional limit */
+  overflow-y: auto;    /* Scrolls if content is too large */
+  width: 150px;
+  float: right;        /* Aligns the element to the right */
+  margin-top: 100px;
+  margin-right: 20px;  /* Optional: space from the right edge */
+}
