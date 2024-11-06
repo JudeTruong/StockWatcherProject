@@ -28,3 +28,27 @@ body{
   margin-top: 100px;
   margin-right: 20px;  /* Optional: space from the right edge */
 }
+
+table, th, td {
+  border: 3px solid black;
+  border-collapse: collapse;
+  background-color: white;
+}
+
+.fade-in {
+  opacity: 0;             
+  transition: opacity 0.5s ease-in-out; 
+}
+
+.fade-in.active {
+  opacity: 1;            
+}
+
+.activeUp {
+  color: green;
+  background-color: white;
+}
+.activeDown {
+  color: red;
+  background-color: white;
+}
